@@ -116,6 +116,10 @@ export default {
     buttonBg () {
       return {
         'bg-primary text-white': this.bg === 'primary',
+        'bg-light text-light': this.bg === 'light',
+        'bg-light-accent text-light-accent': this.bg === 'light-accent',
+        'bg-dark text-dark': this.bg === 'dark',
+        'bg-dark-accent text-dark-accent': this.bg === 'dark-accent',
         'bg-success text-success': this.bg === 'success',
         'bg-warning text-warning': this.bg === 'warning',
         'bg-danger text-danger': this.bg === 'danger',
@@ -158,6 +162,46 @@ export default {
 }
 .border-primary {
   border-color: #d05790;
+}
+/* light color */
+.bg-light {
+  background: #EAE8DE;
+}
+.text-light {
+  color: #A59BA3;
+}
+.border-light {
+  border-color: #A59BA3;
+}
+/* light accent color */
+.bg-light-accent {
+  background: #A59BA3;
+}
+.text-light-accent {
+  color: #EAE8DE;
+}
+.border-light-accent {
+  border-color: #EAE8DE;
+}
+/* dark color */
+.bg-dark {
+  background: #17182C;
+}
+.text-dark {
+  color: #647AAC;
+}
+.border-dark {
+  border-color: #647AAC;
+}
+/* dark accent color */
+.bg-dark-accent {
+  background: #647AAC;
+}
+.text-dark-accent {
+  color: #17182C;
+}
+.border-dark-accent {
+  border-color: #17182C;
 }
 /* success color */
 .bg-success {
