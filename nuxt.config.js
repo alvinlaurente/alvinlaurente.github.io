@@ -24,6 +24,10 @@ export default {
       },
       {
         rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap'
+      },
+      {
+        rel: 'stylesheet',
         href: 'https://pro.fontawesome.com/releases/v5.10.0/css/all.css'
       }
     ]
