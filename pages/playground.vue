@@ -103,6 +103,7 @@
 <script>
 export default {
   name: 'Playground',
+  layout: 'default',
   data () {
     return {
       title: 'Playground',

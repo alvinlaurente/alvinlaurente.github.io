@@ -5,7 +5,7 @@
         Hi, I'm <span class="font-noto text-primary">Alvin</span>! Enjoy the journey ahead.
       </p>
       <NuxtLink to="/playground" class="flex gap-2 items-center text-sm transition ease-in-out hover:text-primary">
-        <i class="fa fa-chevron-right" />
+        <i class="text-primary fa fa-chevron-right animate-ping" />
         Playground
       </NuxtLink>
     </div>
